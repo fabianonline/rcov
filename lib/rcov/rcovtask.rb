@@ -122,15 +122,6 @@ module Rcov
         end
       end
 
-      desc "Remove rcov products for #{actual_name}"
-      task paste("clobber_", actual_name) do
-        rm_r @output_dir rescue nil
-      end
-
-      clobber_task = paste("clobber_", actual_name)
-      task :clobber => [clobber_task]
-
-      task actual_name => clobber_task
       self
     end
 
