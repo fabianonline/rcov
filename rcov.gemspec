@@ -1,4 +1,4 @@
-PKG_FILES = ["bin/rcov", "lib/rcov.rb", "lib/rcov/lowlevel.rb", "lib/rcov/version.rb", 
+PKG_FILES_2 = ["bin/rcov", "lib/rcov.rb", "lib/rcov/lowlevel.rb", "lib/rcov/version.rb", 
              "lib/rcov/rcovtask.rb", "lib/rcov/formatters.rb", "lib/rcov/call_site_analyzer.rb",
              "lib/rcov/code_coverage_analyzer.rb", "lib/rcov/coverage_info.rb", "lib/rcov/differential_analyzer.rb",
              "lib/rcov/file_statistics.rb",
@@ -39,7 +39,7 @@ Gem::Specification.new do |s|
   s.email = %q{opensource@thinkrelevance.com}
   s.executables = ["rcov"]
   s.extensions = ["ext/rcovrt/extconf.rb"]
-  s.files = PKG_FILES
+  s.files = PKG_FILES_2
   s.homepage = %q{http://github.com/relevance/rcov}
   s.rdoc_options = ["--title", "rcov code coverage tool"]
   s.require_paths = ["lib"]
