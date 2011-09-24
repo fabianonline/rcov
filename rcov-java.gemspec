@@ -1,4 +1,4 @@
-PKG_FILES = ["bin/rcov", "lib/rcov.rb", "lib/rcov/lowlevel.rb", "lib/rcov/version.rb", 
+PKG_FILES_3 = ["bin/rcov", "lib/rcov.rb", "lib/rcov/lowlevel.rb", "lib/rcov/version.rb", 
              "lib/rcov/rcovtask.rb", "lib/rcov/formatters.rb", "lib/rcov/call_site_analyzer.rb",
              "lib/rcov/code_coverage_analyzer.rb", "lib/rcov/coverage_info.rb", "lib/rcov/differential_analyzer.rb",
              "lib/rcov/file_statistics.rb",
@@ -39,7 +39,7 @@ Gem::Specification.new do |s|
   s.description = %q{rcov is a code coverage tool for Ruby. It is commonly used for viewing overall test unit coverage of target code.  It features fast execution (20-300 times faster than previous tools), multiple analysis modes, XHTML and several kinds of text reports, easy automation with Rake via a RcovTask, fairly accurate coverage information through code linkage inference using simple heuristics, colorblind-friendliness...}
   s.email = %q{opensource@thinkrelevance.com}
   s.executables = ["rcov"]
-  s.files = PKG_FILES
+  s.files = PKG_FILES_3
   s.platform = %q{java}
   s.has_rdoc = true
   s.homepage = %q{http://github.com/relevance/rcov}
